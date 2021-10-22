@@ -1,0 +1,32 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "alt+shift+z",
+    "command": "editor.action.refactor",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly",
+    "args": {
+      "kind": "refactor"
+    }
+  },
+  {
+    "key": "ctrl+shift+oem_plus",
+    "command": "-workbench.action.zoomIn"
+  },
+  {
+    "key": "ctrl+shift+oem_plus",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "f11",
+    "command": "-workbench.action.toggleFullScreen"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "editor.action.sourceAction",
+    "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-workbench.actions.view.problems"
+  }
+]

@@ -1,0 +1,61 @@
+{
+    "java.semanticHighlighting.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\dlicois\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    // "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.tabSize": 2,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "editor.renderControlCharacters": false,
+    "extensions.ignoreRecommendations": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.ignoreWindowsGit27Warning": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "java.project.importHint": false,
+    "gradle.reuseTerminals": "all",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "editor.suggest.showStatusBar": true,
+    "workbench.editorAssociations": {
+        "git-rebase-todo": "default"
+    },
+    "diffEditor.renderSideBySide": true,
+    "spring.initializr.defaultJavaVersion": "11",
+    "spring.initializr.defaultLanguage": "Java",
+    "spring.initializr.defaultPackaging": "JAR",
+    "redhat.telemetry.enabled": true,
+    "sonarlint.connectedMode.connections.sonarqube": [
+        {
+            "serverUrl": "https://sonar.url",
+            "token": "atoken"
+        }
+    ],
+    "java.maven.downloadSources": true,
+    // "java.trace.server": "messages",
+    "java.debug.settings.showHex": false,
+    "spotlessGradle.format.enable": true,
+    "editor.formatOnSave": true,
+    "[java]": {
+        "editor.defaultFormatter": "richardwillis.vscode-spotless-gradle",
+        "editor.codeActionsOnSave": {
+            "source.generate.finalModifiers": true,
+            "source.fixAll": true
+        }
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
