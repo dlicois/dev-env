@@ -1,0 +1,14 @@
+[core]
+	editor = \"C:\\...\\Microsoft VS Code\\Code.exe\" --wait
+	autocrlf = true # for MS WINDOWS
+[user]
+	email = dorian.licois-ext@nickel.eu
+	name = dorian.licois
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = \"C:\\...\\Microsoft VS Code\\Code.exe\" --wait $MERGED
+[diff]
+    tool = vscodes
+[difftool "vscode"]
+    cmd = \"C:\\...\\Microsoft VS Code\\Code.exe\" --wait --diff $LOCAL $REMOTE
