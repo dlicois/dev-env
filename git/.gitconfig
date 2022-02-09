@@ -2,7 +2,7 @@
 	editor = \"C:\\...\\Microsoft VS Code\\Code.exe\" --wait
 	autocrlf = true # for MS WINDOWS
 [user]
-	email = dorian.licois-ext@nickel.eu
+	email = email@example.com
 	name = dorian.licois
 [merge]
     tool = vscode
